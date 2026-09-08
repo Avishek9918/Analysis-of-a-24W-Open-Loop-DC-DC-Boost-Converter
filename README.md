@@ -71,8 +71,6 @@ The circuit was built in Simscape Electrical using:
 - Output capacitor (47µF) and load resistor (12Ω)
 - Current sensors on the inductor and output branch, and a voltage sensor across the load, feeding a scope for observation
 
-![Block Diagram](block_diagram.png)
-
 ## Results
 
 | Parameter | Theoretical | Simulated | Notes |
@@ -80,8 +78,6 @@ The circuit was built in Simscape Electrical using:
 | Vout | 24V | ~23–24V | Small gap due to non-ideal component losses |
 | IL (average) | 4A | ~4A | Matches, with expected switching ripple |
 | Iout | 2A | ~1.9–2A | Matches |
-
-![Output Waveforms](output_waveforms.png)
 
 ### Startup Transient
 
@@ -103,8 +99,3 @@ This is an **open-loop** design — the duty cycle is fixed at 50% regardless of
 ## Tools Used
 
 - MATLAB Simulink / Simscape Electrical
-
-## Author
-
-Abhishek Rajora (Avi)
-B.Tech Electrical Engineering, Delhi Technological University
